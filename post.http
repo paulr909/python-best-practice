@@ -1,0 +1,11 @@
+POST https://jsonplaceholder.typicode.com/todos
+Content-Type: application/json
+
+{
+  "test": "test post"
+}
+
+
+### curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json" -X POST https://jsonplaceholder.typicode.com/todos
+
+
